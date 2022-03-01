@@ -19,3 +19,13 @@ do
     cp "$srcfile" "$PB_DEST"
     echo copying "$srcfile" to "$PB_DEST"
 done
+
+WP_SOURCE='./wallpapers'
+WP_DEST='/home/'"$USERNAME"'/Pictures/wallpapers/'
+mkdir -p "$WP_DEST"
+
+for srcfile in ${WP_SOURCE}/*
+do
+    cp "$srcfile" "$WP_DEST"
+    echo copying "$srcfile" to "$WP_DEST"
+done
