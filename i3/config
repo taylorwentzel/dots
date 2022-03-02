@@ -164,4 +164,6 @@ new_window pixel 2
 gaps inner 6
 gaps outer 6
 
+for_window [class="zoom"] floating enable
+
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
