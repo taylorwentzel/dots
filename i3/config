@@ -170,3 +170,4 @@ for_window [class="Pavucontrol"] floating enable
 for_window [class="zoom"] floating enable
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id autotiling

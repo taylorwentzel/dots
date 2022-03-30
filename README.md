@@ -4,3 +4,5 @@
 [i3-gaps](https://github.com/Airblader/i3)
 
 [Polybar](https://github.com/polybar/polybar)
+
+[Autotiling](https://github.com/nwg-piotr/autotiling)
