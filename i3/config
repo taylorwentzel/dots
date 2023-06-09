@@ -150,9 +150,9 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 bindsym $mod+Shift+o exec i3lock -c 000000
-exec_always feh --bg-scale ~/Pictures/wallpapers/wallpaper3.jpg
+exec_always feh --bg-scale ~/Pictures/wallpapers/wallpaper4.jpg
 
-client.focused          #F0C674 #d70a53 #ffffff #F0C674   #F0C674
+client.focused          #7c50a5 #d70a53 #ffffff #7c50a5   #7c50a5
 client.focused_inactive #2E1A47 #5f676a #ffffff #371f55   #371f55
 client.unfocused        #2E1A47 #222222 #888888 #292d2e   #371f55
 client.urgent           #2E1A47 #900000 #ffffff #900000   #371f55
